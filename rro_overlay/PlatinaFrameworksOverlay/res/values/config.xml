@@ -163,4 +163,7 @@
         L 150,0
         Z
     </string>
+
+    <!-- Disable lockscreen rotation by default -->
+    <bool name="config_enableLockScreenRotation">false</bool>
 </resources>
