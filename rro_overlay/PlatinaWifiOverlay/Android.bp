@@ -1,6 +1,5 @@
 runtime_resource_overlay {
     name: "PlatinaWifiOverlay",
     theme: "PlatinaWifiOverlay",
-    sdk_version: "current",
     vendor: true
 }
