@@ -29,8 +29,6 @@ DEVICE_PATH := device/xiaomi/platina
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 27
 
-PRODUCT_COMPRESSED_APEX := false
-
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
