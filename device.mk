@@ -29,9 +29,6 @@ DEVICE_PATH := device/xiaomi/platina
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 27
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 PRODUCT_COMPRESSED_APEX := false
 
 # Setup dalvik vm configs
