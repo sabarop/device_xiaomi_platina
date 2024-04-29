@@ -41,7 +41,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.sdm660 \
     libMegviiFacepp-0.5.2 \
-    libmegface
+    libmegface \
+    libstdc++_vendor
 
 # Consumerir
 BOARD_HAVE_IR := false
