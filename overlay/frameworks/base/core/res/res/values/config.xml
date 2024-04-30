@@ -95,20 +95,6 @@
     <!-- Slow brightness animation ramp rate in brightness units per second-->
     <integer translatable="false" name="config_brightness_ramp_rate_slow">60</integer>
 
-    <!-- Vibrator pattern for feedback about a long screen/key press -->
-    <integer-array name="config_longPressVibePattern">
-        <item>0</item>
-        <item>12</item>
-        <item>5</item>
-    </integer-array>
-
-    <!-- Vibrator pattern for feedback about touching a virtual key -->
-    <integer-array name="config_virtualKeyVibePattern">
-        <item>0</item>
-        <item>12</item>
-        <item>5</item>
-    </integer-array>
-
     <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
           manually by the user. Off by default, since the expected haptic feedback may not be
           available on some devices. -->
