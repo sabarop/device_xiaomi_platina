@@ -4,8 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -13,7 +14,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_platina
+PRODUCT_NAME := aosp_platina
 PRODUCT_MODEL := MI 8 Lite
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
