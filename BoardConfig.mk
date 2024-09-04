@@ -52,6 +52,9 @@ TARGET_KERNEL_CONFIG := platina_defconfig
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Partitions
+BOARD_USES_METADATA_PARTITION := true
+
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
