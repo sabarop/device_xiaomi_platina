@@ -68,5 +68,7 @@ VENDOR_SECURITY_PATCH := 2020-08-01
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/framework_compatibility_matrix.xml
+
 # Inherit the proprietary files
 include vendor/xiaomi/platina/BoardConfigVendor.mk
