@@ -18,6 +18,7 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Camera
+vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libMiCameraHal.so
 vendor/lib/libSNPE.so
 vendor/lib/libVDClearShot.so
@@ -36,6 +37,7 @@ vendor/lib/libft2vendor.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
+vendor/lib/libmegface.so
 vendor/lib/libmorphohht4.0.so
 vendor/lib/libmibokeh_660.so
 vendor/lib/libmm-qcamera.so
@@ -257,6 +259,7 @@ vendor/etc/camera/female_icon.png
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
+vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/morpho_lowlight4.0.xml
