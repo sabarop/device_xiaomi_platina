@@ -17,7 +17,4 @@
 -->
 <resources>
 
-    <!-- Default value for lockscreen rotation -->
-    <bool name="def_lockscreen_rotation">true</bool>
-
 </resources>
