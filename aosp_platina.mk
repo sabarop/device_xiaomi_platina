@@ -18,7 +18,6 @@ PRODUCT_NAME := aosp_platina
 PRODUCT_MODEL := MI 8 Lite
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=platina \
-    PRIVATE_BUILD_DESC="platina-user 10 QKQ1.190910.002 V12.0.3.0.QDTMIXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/platina/platina:10/QKQ1.190910.002/V12.0.3.0.QDTMIXM:user/release-keys
+    BuildDesc="platina-user 10 QKQ1.190910.002 V12.0.3.0.QDTMIXM release-keys" \
+    BuildFingerprint=Xiaomi/platina/platina:10/QKQ1.190910.002/V12.0.3.0.QDTMIXM:user/release-keys \
+    DeviceProduct=platina
